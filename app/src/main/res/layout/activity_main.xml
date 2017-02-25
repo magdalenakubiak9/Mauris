@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.mauris.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:src="@drawable/ogo_spol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_weight="0"
+            android:contentDescription="@string/image_view_panama"/>
+
+        <TextView
+            style="@style/TopBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/mauris"
+            android:textColor="@color/colorMauris"
+            android:layout_weight="0"/>
+
+        <TextView
+            style="@style/TopBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/kingdom"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorMauris"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_layout_1">
+
+        <ImageView
+            android:src="@drawable/panama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:id="@+id/plaszczka_image"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            style="@style/Banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/adventure"
+            android:id="@+id/adventure_text" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:src="@drawable/website_icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            style="@style/ContactInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/website"
+            android:autoLink="web"
+            android:id="@+id/website_text"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:layout_weight="1">
+
+        <ImageView
+            android:src="@drawable/phone_icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            style="@style/ContactInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/website_text"
+            android:text="@string/phone"
+            android:id="@+id/phone_text"
+            android:autoLink="phone"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+<TextView
+    style="@style/BottomBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/invitation"/>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+        <!-- Top bar style -->
+        <style name="TopBar">
+            <item name="android:textSize">20sp</item>
+            <item name="android:padding">15dp</item>
+            <item name="android:gravity">center</item>
+            <item name="android:fontFamily">sans-serif-medium</item>
+            <item name="android:textColor">@color/colorPrimary</item>
+        </style>
+
+        <style name="Banner">
+            <item name="android:textSize">25sp</item>
+            <item name="android:padding">15dp</item>
+            <item name="android:fontFamily">sans-serif-medium</item>
+            <item name="android:textColor">@color/colorPrimaryDark</item>
+         </style>
+
+    <style name="ContactInfo">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:padding">@dimen/my_padding_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorLink">@color/colorPrimary</item>
+        <item name="android:gravity">start|center_vertical</item>
+    </style>
+
+    <style name="BottomBar">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:padding">@dimen/my_padding_small</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorMauris</item>
+    </style>
+
+</resources>

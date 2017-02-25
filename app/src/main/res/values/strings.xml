@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mauris</string>
+    <string name="mauris">MAURIS</string>
+    <string name="kingdom">THE KINGDOM OF ADVENTURE</string>
+    <string name="adventure">Find your adventure!</string>
+    <string name="website">www.mauris.pl</string>
+    <string name="phone">+48 505 222 000</string>
+    <string name="email">info@mauris.pl</string>
+    <string name="invitation">If you want to find adventure of your lifetime, check out our offer!</string>
+    <string name="image_view_panama">Przygoda życia - zdobądź szczyt wulkanu</string>
+</resources>
