@@ -14,8 +14,8 @@
         </style>
 
         <style name="Banner">
-            <item name="android:textSize">25sp</item>
-            <item name="android:padding">15dp</item>
+            <item name="android:textSize">@dimen/large_text_size</item>
+            <item name="android:padding">@dimen/my_padding</item>
             <item name="android:fontFamily">sans-serif-medium</item>
             <item name="android:textColor">@color/colorPrimaryDark</item>
          </style>
